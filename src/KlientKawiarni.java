@@ -5,7 +5,6 @@ public class KlientKawiarni {
     private String imie;
     private String nazwisko;
     private String email;
-
     private static int liczbaKlientow=0;
 
     public static int  getLiczbaKlientow() {
@@ -17,11 +16,12 @@ public class KlientKawiarni {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.email = email;
+        liczbaKlientow++;
     }
 
     @Override
     public String toString() {
-        return "KlientWypozyczalni{" +
+        return "KlientKawiarni{" +
                 "idKlienta=" + idKlienta +
                 '}';
     }

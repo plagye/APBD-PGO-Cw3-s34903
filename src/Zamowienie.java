@@ -5,9 +5,9 @@ public class Zamowienie {
     private KlientKawiarni klient;
     private ArrayList<ProduktMenu> produkty;
     private boolean oplacone;
-    private static int kolejnyNumer;
-
     private static int kolejnyNumer = 1;
+
+
 
     public Zamowienie(KlientKawiarni klient) {
         this.numerZamowienia = kolejnyNumer++;
