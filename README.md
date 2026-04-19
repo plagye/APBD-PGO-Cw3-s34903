@@ -1,6 +1,5 @@
-# Prosta aplikacja konsolowa w Javie modelująca obsługę zamówień w kameralnej kawiarni.
+Prosta aplikacja konsolowa w Javie modelująca obsługę zamówień w kameralnej kawiarni.
 
-`---`
 
 ## Model
  
