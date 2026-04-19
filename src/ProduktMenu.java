@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class ProduktMenu {
     private String kod;
     private String nazwa;

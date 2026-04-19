@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class KlientKawiarni {
     private int idKlienta;
     private String imie;
@@ -27,7 +29,7 @@ public class KlientKawiarni {
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof KlientKawiarni that)) return false;
-        return email == that.email;
+        return Objects.equals(email, that.email);
     }
 
     @Override
